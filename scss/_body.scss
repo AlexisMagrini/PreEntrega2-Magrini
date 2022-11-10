@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+}
+
+
+h1 {
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-family: 'Poppins' !important;
+}
+
+h2 {
+    font-family: 'Poppins' !important;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+
+    /* margin-top: -45px; */
+    font-weight: 300;
+    font-family: 'Poppins' !important;
+}
+
+h5 {
+    color: #FFFFFF;
+    margin-top: -20px;
+    font-weight: 300;
+    font-family: 'Poppins' !important;
+}
+
+p {
+    font-family: 'Poppins' !important;
+    color: #FFFFFF;
+}
