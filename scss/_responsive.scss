@@ -11,7 +11,7 @@
     }
 
     header {
-        height: 750px;
+        height: 600px;
     }
 
     .nav-responsive {
@@ -22,6 +22,19 @@
     ul li {
         margin-left: 0px;
     }
+
+    .titulo-descriptivo {
+        padding-top: 25px;
+    }
+    .subt-exp {
+        color: #3B3B7E;
+        font-weight: 800;
+        font-size: 1.8rem;
+        text-align: left;
+        padding-bottom: 75px;
+        margin-left: 45px;
+    }
+
     .cont-footer{
         padding-left: 40px;
         padding-right: 40px;
