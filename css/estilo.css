@@ -30,7 +30,7 @@ h5 {
   font-weight: 300;
 }
 
-p {
+.texto-sobre-mi {
   color: #FFFFFF;
 }
 
@@ -222,6 +222,7 @@ a {
 .logos-card {
   max-width: 24px;
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 footer {
@@ -387,7 +388,7 @@ button:hover {
 
 .card-title {
   color: #3B3B7E !important;
-  font-weight: 600 !important;
+  font-weight: bold !important;
 }
 
 .card-img-top {
@@ -396,6 +397,10 @@ button:hover {
 
 .card-body {
   font-family: "Poppins" !important;
+}
+
+.card-text {
+  font-size: 0.8rem;
 }
 
 @media (max-width: 600px) {

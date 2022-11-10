@@ -57,7 +57,7 @@
 
 .card-title {
     color: #3B3B7E !important;
-    font-weight: 600 !important;
+    font-weight: bold !important;
 }
 
 .card-img-top {
@@ -66,6 +66,10 @@
 
 .card-body {
     font-family: 'Poppins' !important;
+}
+
+.card-text {
+    font-size: 0.8rem;
 }
 
 
