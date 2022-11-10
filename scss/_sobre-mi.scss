@@ -1,0 +1,24 @@
+
+.sobre-mi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3B3B7E;
+    overflow: hidden;
+    padding: 50px 0px 50px 0px;
+}
+
+.img-sobre-mi {
+    width: 350px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+.titulo-proyectos {
+    text-align: center;
+    color: #3B3B7E;
+    font-family: 'Poppins' !important;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 50px;
+}
