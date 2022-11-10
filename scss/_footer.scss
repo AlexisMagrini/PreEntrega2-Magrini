@@ -56,17 +56,22 @@ button {
     background: none;
     border: none;
     text-align: left;
-    color: #3B3B7E;
+    color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
 
     &:hover {
-        color: #FFFFFF;
+        color: #bbbbff;
+        border: none;
         translate: 1000ms;
         animation: headShake;
         animation-duration: 00.5s;
+        transition: 0.2s ease-in-out;
     }
 }
+
 
 .footer-pie {
     color: #FFFFFF;
@@ -74,8 +79,6 @@ button {
     align-items: center;
     justify-content: center;
     padding-top: 15px;
-
-    /* border-top: 1.5px solid #FFFFFF; */
 
     span {
         font-weight: 600;

@@ -210,6 +210,20 @@ a {
   padding-top: 50px;
 }
 
+.titulo-proyectos {
+  text-align: center;
+  color: #3B3B7E;
+  font-family: "Poppins" !important;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 50px;
+}
+
+.logos-card {
+  max-width: 24px;
+  margin-right: 5px;
+}
+
 footer {
   padding-bottom: 1rem;
   padding-top: 4rem;
@@ -268,15 +282,19 @@ button {
   background: none;
   border: none;
   text-align: left;
-  color: #3B3B7E;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
 }
 button:hover {
-  color: #FFFFFF;
+  color: #bbbbff;
+  border: none;
   translate: 1000ms;
   animation: headShake;
   animation-duration: 0.5s;
+  transition: 0.2s ease-in-out;
 }
 
 .footer-pie {
@@ -285,7 +303,6 @@ button:hover {
   align-items: center;
   justify-content: center;
   padding-top: 15px;
-  /* border-top: 1.5px solid #FFFFFF; */
 }
 .footer-pie span {
   font-weight: 600;
