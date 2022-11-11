@@ -137,7 +137,7 @@ a {
 .titulo-descriptivo {
   background-color: #FFFFFF;
   padding-top: 75px;
-  padding-bottom: 150px;
+  padding-bottom: 25px;
 }
 
 .subt-exp {
@@ -432,14 +432,14 @@ button:hover {
   }
   .titulo-descriptivo {
     padding-top: 25px;
+    padding-bottom: 25px;
   }
   .subt-exp {
     color: #3B3B7E;
     font-weight: 800;
     font-size: 1.8rem;
     text-align: left;
-    padding-bottom: 75px;
-    margin-left: 45px;
+    margin-left: 35px;
   }
   .cont-footer {
     padding-left: 40px;
