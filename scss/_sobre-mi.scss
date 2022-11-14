@@ -1,24 +1,24 @@
 
 .sobre-mi {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #3B3B7E;
-    overflow: hidden;
-    padding: 150px 0px 150px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .img-sobre-mi {
     width: 350px;
     color: #FFFFFF;
-    font-family: 'Poppins';
+    text-align: right;
 }
 
-.titulo-proyectos {
-    text-align: center;
-    color: #3B3B7E;
-    font-family: 'Poppins' !important;
-    font-size: 2rem;
-    font-weight: 400;
-    padding-top: 50px;
+
+
+.texto-sobre-mi {
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.titulos-secciones {
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: bold;
 }
