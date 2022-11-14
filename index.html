@@ -153,15 +153,14 @@
     ------------------------------------------------------------------>
     <section class="container-fluid">
       <div class="row sobre-mi">
-        <div class="col-12 col-sm-6 img-sobre-mi animate__animated animate__zoomInDown">
-          <img class="img-sobre-mi img-fluid" src="img/alexis-foto.png" alt="">
+        <div class="col-12 col-sm-6 img-sobre-mi">
+          <img data-aos="fade-right" class="img-sobre-mi img-fluid" src="img/alexis-foto.png" alt="">
         </div>
-        <div class="col-12 col-sm-6 info-sobre-mi animate__animated animate__zoomInDown">
+        <div data-aos="fade-left" class="col-12 col-sm-6 info-sobre-mi">
           <h2>Sobre mi</h2>
-          <p class="texto-sobre-mi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quo atque, odio at
-            repellendus
-            necessitatibus modi eos officiis natus vitae magnam similique deserunt fuga laudantium facilis
-            porro velit mollitia rem.</p>
+          <p class="texto-sobre-mi">Hola! Soy Alexis, Diseñador Gráfico especializado en UX/UI.
+            <span class="d-block">Desarrollado Front End en proceso.</span>
+          </p>
         </div>
       </div>
     </section>
@@ -186,7 +185,8 @@
     ------------------------------------------------------------------>
           <div class="col col-sm-6 col-md-4 mb-3">
             <a href="https://www.behance.net/gallery/150514203/Fitness-App-CoderHouse" target="_blank">
-              <div class="card card-animation mx-auto" style="width: 15rem;">
+              <div data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom" class="card card-animation mx-auto" style="width: 15rem;">
                 <img
                   src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/63db9e150514203.Y3JvcCwxNTg2LDEyNDEsODIsMA.jpg"
                   class="card-img-top" alt="Fitness App - Coderhouse">
@@ -205,7 +205,8 @@
     ------------------------------------------------------------------>
           <div class="col col-sm-6 col-md-4 mb-3">
             <a href="https://www.behance.net/gallery/149831709/Sol-Franco-Web-Site" target="_blank">
-              <div class="card card-animation mx-auto" style="width: 15rem;">
+              <div data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom" class="card card-animation mx-auto" style="width: 15rem;">
                 <img
                   src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/142ea0149831709.Y3JvcCwyNjM4LDIwNjMsMCww.png"
                   class="card-img-top" alt="Sol Franco - WebSite">
@@ -225,7 +226,8 @@
     ------------------------------------------------------------------>
           <div class="col col-sm-6 col-md-4 mb-3">
             <a href="https://www.behance.net/gallery/145743879/Vintage-Revival" target="_blank">
-              <div class="card card-animation mx-auto" style="width: 15rem;">
+              <div data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom" class="card card-animation mx-auto" style="width: 15rem;">
                 <img
                   src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/94a92e145743879.Y3JvcCwxMjcwLDk5Myw1Niww.jpg"
                   class="card-img-top" alt="Vintage Revival">
@@ -243,7 +245,8 @@
     ------------------------------------------------------------------>
           <div class="col col-sm-6 col-md-4 mb-3">
             <a href="https://www.behance.net/gallery/127857741/Modeley-Coloral" target="_blank">
-              <div class="card card-animation mx-auto" style="width: 15rem;">
+              <div data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom" class="card card-animation mx-auto" style="width: 15rem;">
                 <img
                   src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/0e5aae127857741.Y3JvcCw5OTksNzgyLDAsMTA4.jpg"
                   class="card-img-top" alt="Modeley Coloral">
@@ -262,7 +265,8 @@
     ------------------------------------------------------------------>
           <div class="col col-sm-6 col-md-4 mb-3">
             <a href="https://www.behance.net/gallery/127857467/Red-Logistic-Group" target="_blank">
-              <div class="card card-animation mx-auto" style="width: 15rem;">
+              <div data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom" class="card card-animation mx-auto" style="width: 15rem;">
                 <img
                   src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/f8dc05127857467.Y3JvcCw4MDgsNjMyLDAsMA.png"
                   class="card-img-top" alt="Red Logistic Group">
@@ -282,7 +286,8 @@
     ------------------------------------------------------------------>
           <div class="col col-sm-6 col-md-4 mb-3">
             <a href="https://www.behance.net/gallery/124477231/STREAM-PACK" target="_blank">
-              <div class="card card-animation mx-auto" style="width: 15rem;">
+              <div data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom" class="card card-animation mx-auto" style="width: 15rem;">
                 <img
                   src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/01f3be124477231.Y3JvcCw4MDgsNjMyLDAsMA.jpg"
                   class="card-img-top" alt="Stream Pack">
@@ -329,7 +334,9 @@
         <input type="text" name="nombre" size="40" placeholder="Ingresá tu e-mail">
         <span class="titulo-form">Contame sobre tu proyecto</span>
         <input type="text-area" name="nombre" size="100" placeholder="Contanos sobre tu proyecto">
-        <button class="boton">Enviar <i class="fa-solid fa-arrow-right"></i></button>
+        <button class="boton"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+          <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/> 
+        </svg> Enviar </button>
       </form>
     </div>
     <div class="conteiner-fluid footer-pie">
